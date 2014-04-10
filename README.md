@@ -1,10 +1,13 @@
 railsmongo_angularjs
 ====================
 
-サーバサイド
-rails
-mongoDB
+サーバサイド  
+`$ rails s`  
+rails  
+mongoDB  
+  
 
-クライアントサイド
-angularjs
-(coffeescript, jade)
+クライアントサイド  
+`$ grunt server`  
+angularjs  
+(coffeescript, jade)  
