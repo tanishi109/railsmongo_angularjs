@@ -11,7 +11,7 @@ app = angular.module("taskApp", [
 app.config ($routeProvider) ->
   $routeProvider
     .when '/',
-      templateUrl: 'views/index.jade'
+      templateUrl: 'views/index.html'
       controller: 'ProjectCtrl'
     .otherwise
       redirectTo: '/'
